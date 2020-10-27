@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integración de hojas de estilo y Javascript</title>
+    <!-- Se agregan las hojas de estilo con la etiqueta link -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+
+<body>
+    <h1>Integración de hojas de estilo y script de javascript</h1>
+    <p class="parrafo">Como buena practica suele crearse archivos separando los estilos, los script (código javascript) y el html en archivos diferentes.</p>
+    <p class="parrafo">Para ello en la etiqueta se integran los archivos .css</p>
+    <p class="parrafo">Y al final antes de cerrar la etiqueta body se agregan todos los archivos .js</p>
+    <p class="parrafo">Cabe señalar que van en orden de uso, significa que si un archivo script1.js usa instrucciones del script2.js entonces primero deberá declararse script2.js y luego script1.js </p>
+    <p class="parrafo">En las hojas de estilo se recomienda que los estilos propios vayan al final de todos los .css que se agreguen</p>
+    <!-- Con la etiqueta script se agregan los script de javascript-->
+    <script type="text/javascript" src="./js/script2.js"></script>
+    <script type="text/javascript" src="./js/script1.js"></script>
+</body>
+
+</html>

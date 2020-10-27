@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas en HTML</title>
+</head>
+
+<body>
+    <h1>Ejemplo del uso de tablas en HTML</h1>
+    <hr/>
+    <h2>Tabla basica</h2>
+    <table border="2">
+        <tr>
+            <th>Titulo columna 1</th>
+            <th>Titulo columna 2</th>
+        </tr>
+        <tr>
+            <td>Dato comluna 1, Fila 1</td>
+            <td>Dato comluna 2, Fila 1</td>
+        </tr>
+        <tr>
+            <td>Dato comluna 1, Fila 2</td>
+            <td>Dato comluna 2, Fila 2</td>
+        </tr>
+    </table>
+    <p>Esta tabla es la mas basica veremos algunas mas complejas</p>
+    <hr/>
+    <h2>Tabla con colspan</h2>
+    <table border="2">
+        <tr>
+            <th>Titulo 1</th>
+            <th>Titulo 2</th>
+        </tr>
+        <tr>
+            <td colspan="2">Este es un contenido expandido</td>
+        </tr>
+        <tr>
+            <td>columna 1, fila 2</td>
+            <td>columna 2, fila 2</td>
+        </tr>
+    </table>
+    <p>Esta tabla en la fila 1 de contenido, esta expandida dos columnas</p>
+    <hr/>
+    <h2>Tabla con rowspan </h2>
+    <table border="2">
+        <tr>
+            <th>Titulo 1</th>
+            <th>Titulo 2</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Este es un contenido expandido</td>
+            <td>Columna 2, fila 1</td>
+        </tr>
+        <tr>
+            <td>Columna 2, fila 2</td>
+        </tr>
+    </table>
+    <p>Esta tabla en la columna 1 se expande dos filas y la siguiente columna no se modifica.</p>
+</body>
+
+</html>
