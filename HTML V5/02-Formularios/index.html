@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" src="./css/estilos.css">
+    <title>Formularios</title>
+</head>
+
+<body>
+    <header>
+        <h1>Formulario de ejemplo</h1>
+        <h2>Etiquetas HTML V 4.01 y V5</h2>
+        <p>Esta pagina encontrarás las etiquetas HTML V4.01 y HTML V5</p>
+    </header>
+    <section>
+        <h3>Etiqueta HTML V 4.01</h3>
+        <form action="index.html" name="formulario" id="form1" method="get">
+            <hr/>
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombreCompleto"><br />
+            <hr/>
+            <label for="pass">Contraseña: </label>
+            <input type="password" id="pass" name="pass"><br />
+            <hr/>
+            <label for="descripcion">Describete: </label>
+            <textarea name="descripcion" id="descripcion" cols="30" rows="10"></textarea>
+            <hr/>
+            <label for="futbol">Te gusta el Futbol: </label>
+            <input type="checkbox" id="futbol" name="futbol" value="1">
+            <label for="basquetball">Te gusta el Basquetball: </label>
+            <input type="checkbox" id="basketball" name="basquetball" value="2">
+            <label for="baseball">Te gusta el Baseball: </label>
+            <input type="checkbox" id="baseball" name="baseball" value="3">
+            <hr/>
+            <label for="sexo">Sexo:</label> Masculino
+            <input type="radio" id="sexo" name="sexo" value="Masculino" checked> Femenino
+            <input type="radio" id="sexo" name="sexo" value="Femenino">
+            <hr/>
+            <label for="imagen">Sube una imagen:</label>
+            <input type="file" name="archivo" id="archivo">
+            <hr/>
+            <input type="hidden" name="valorOculto" value="12345">
+            <hr/>
+            <label for="lista">Seleciona un pasatiempo:</label>
+            <select name="lista">
+                <option value="ajedrez">Ajedrez Profesional</option>
+                <option value="ping pong" selected>Ping Pong</option>
+                <option value="domino" >Domino</option>
+                <option value="cartas" >cartas</option>
+            </select>
+            <hr/>
+            <input type="submit" name="enviar" value="Enviar Datos">
+            <input type="reset" value="Limpiar Formulario">
+            <input type="button" value="Grabar">
+        </form>
+    </section>
+    <section>
+        <h3>Etiqueta HTML V5</h3>
+        <form action="index.html" name="formulariov5" method="get">
+            <hr />
+            <label for="fecha">Fecha de Nacimiento: </label>
+            <input type="datetime" id="fecha">
+            <hr/>
+            <label for="fechaReg">Fecha  de registro: </label>
+            <input type="date" id="fechaReg">
+            <hr />
+            <label for="mesReg">Mes de registro: </label>
+            <input type="month" id="mesReg">
+            <hr />
+            <label for="semanaReg">Semana de registro: </label>
+            <input type="week" id="semanaReg">
+            <hr />
+            <label for="horaReg">hora de registro: </label>
+            <input type="time" id="horaReg">
+            <hr />
+            <label for="numero">Numero de la suerte: </label>
+            <input type="number" id="numero" placeholder="12345">
+            <hr />
+            <label for="correo">Correo Electronico: </label>
+            <input type="email" id="correo" placeholder="miCorreo@gmail.com" required>
+            <hr />
+            <label for="sitio">sitio web favorito: </label>
+            <input type="url" id="sitio" placeholder="http://www.google.com" required>
+            <hr />
+            <input type="submit" name="enviar" value="Enviar">
+        </form>
+    </section>
+    <footer> Derechos Reservados 2020 &copy; Jaime Alejandro Cruz Córdova</footer>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
