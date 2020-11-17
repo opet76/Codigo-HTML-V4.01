@@ -1,0 +1,20 @@
+h1 {
+    color: #28a232;
+}
+
+h2 {
+    color: #4e15b6;
+    background-color: #000000;
+}
+
+.colorNaranja {
+    color: #ff8000;
+}
+
+.colorRojo {
+    color: #ff0000;
+}
+
+.fondoAmarillo {
+    background-color: #ffff00;
+}

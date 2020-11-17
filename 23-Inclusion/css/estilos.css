@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(35, 127, 164);
+    font-size: 20px;
+}
+
+h1 {
+    color: #b7b700;
+    font-size: 2em;
+}
+
+p {
+    font-size: 3em;
+}
+
+img {
+    width: 100%;
+}

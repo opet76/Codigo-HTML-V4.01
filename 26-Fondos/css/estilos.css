@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "fuenteTexto";
+    src: url("../fonts/Lobster-Regular.ttf");
+}
+
+body {
+    background: #ea7055;
+    color: #000;
+}
+
+p {
+    font-family: 'fuenteTexto';
+    font-size: 1.8rem;
+    font-weight: 200;
+    color: #360623;
+    direction: ltr;
+    letter-spacing: 0.12rem;
+    word-spacing: 0.8rem;
+    text-indent: 4rem;
+    text-align: justify;
+    text-transform: lowercase;
+}
+
+h1 {
+    text-decoration: underline wavy #5a11cf;
+    text-shadow: 4px 4px 8px #56A67F;
+}

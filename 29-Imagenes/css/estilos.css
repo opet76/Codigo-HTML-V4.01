@@ -1,0 +1,12 @@
+.imagen1 {
+    width: 50%;
+    height: auto;
+    border: 13px outset #C04F12;
+    opacity: 1;
+}
+
+.imagen2 {
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+}
